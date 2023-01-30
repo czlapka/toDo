@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: large;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.container{
+    width: 800px;
+    height: auto;
+    min-height:172px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+}
+.nav{
+    width: 800px;
+    height: auto;
+    min-height:172px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(212, 164, 90);
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+.addbar{
+    display: flex;
+}
+.addbar button{
+    width: 54px;
+    border-radius: 30px;
+    border:none;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: ease-in-out 0.5s;
+}
+.addbar button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+}
+.addbar img{
+    width: 20px;
+    rotate: 45deg;
+}
+.clearbutton{
+    border:none;
+    height: 52px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    border: 0;
+    padding: 13px;
+    border-radius: 30px;
+    width: 300px;
+    transition: ease-in-out 0.5s;
+}
+input:hover{
+    box-shadow: 0 0 10px #00000046
+}
+input:focus{
+    outline: none !important;
+    border-color: #547aa3;
+    background-color: #c1e1ff;
+}
+.listcontainer{
+    background-color: rgba(230, 198, 95, 0.479);
+    border-radius:24px;
+    min-height: 200px;
+}
+.dailytask{
+    padding: 2px;
+    width: 96%;
+    border-radius:20px;
+    background-color: rgba(255, 255, 255, 0.521);
+    margin: 20px auto 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deletetask img{
+    height: 24px;
+    padding: 0;
+    background-color: rgba(250, 235, 215, 0);
+}
+.deletetask{
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    margin: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
